@@ -24,3 +24,5 @@ void PrintArray(string[] array)
         Console.WriteLine($"{array[i]}");
     }
 }
+Creating(array_1, array_2);
+PrintArray(array_2);
