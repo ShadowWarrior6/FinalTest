@@ -12,8 +12,15 @@ void Creating (string[] array_1, string[] array_2)
     {
         if (array_1[i].Length<=3)
         {
-            array_2[i]=array_1[i];
+            array_2[count]=array_1[i];
             count++;
         }
+    }
+}
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array_1.Length; i++)
+    {
+        Console.WriteLine($"{array[i]}");
     }
 }
